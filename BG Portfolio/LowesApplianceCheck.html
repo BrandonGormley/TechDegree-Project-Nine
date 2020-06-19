@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="onDisplay.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>Appliance On Display</title>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="display-2">Appliance Display Checker</h1>
+        <p class="lead">This application will automatically check to see if the appliance your searching for is on
+            display <br> or not at Lowe's Home Improvement, Store # 1034 located in Egg Harbor Township, NJ.</p>
+        <hr class="my-4">
+
+
+        <div class="form-group">
+            <label for="itemNumber">
+                <p class=lead>Please type in Appliance Item # :</p>
+                <small class="form-text text-muted">(6 or 7 Digit Item #)</small>
+                <small class="form-text text-muted">Example: 852884</small>
+            </label>
+            <input class="form-control form-control-lg text-center" type="text" id="itemNumber" name="itemNumber">
+            <div>
+                <button id="myButton" class="btn btn-lg btn-block btn-primary mt-3">Appliance Display Check</button>
+            </div>
+            <p id='answer'></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="onDisplay.js"></script>
+</body>
+
+</html>

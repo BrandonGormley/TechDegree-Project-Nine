@@ -1,0 +1,78 @@
+/* Global heading classes */
+
+.h-white {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/*==================================*/
+
+.bg-dark {
+    background-color: rgba(0,0,0, 0.6)!important;
+}
+
+#home-section {
+    background: url(../img/postOne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 900px;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 250px;
+}
+
+/*============================ Portfolio ===========================*/
+
+#portfolio {
+    background: #ffffff;
+}
+
+.col-md-3 {
+    padding: 0!important;
+}
+
+/* .card-img-top {
+    height: 50%;
+} */
+
+/* Languages */
+
+#languages {
+    background: rgb(241, 241, 241);
+}
+
+.languageIcon {
+    height: 100px;
+    width: 150xp;
+}
+
+#contact {
+    background: rgb(99, 99, 99);
+    color: #fff;
+}
+
+.sociallogo {
+    height: 75px;
+    width: 100px;
+}
+
+.email {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
